@@ -33,7 +33,7 @@ fi
 INPUT=
 OUTPUT=
 
-while getopts i:o: flag; dp
+while getopts i:o: flag; do
 	case $flag in
 		i) INPUT=$OPTARG
 		;;
